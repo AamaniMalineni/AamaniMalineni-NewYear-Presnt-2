@@ -31,7 +31,7 @@ public class Sweet_analysis {
 		System.out.println(Sweets_weight+" grams\n");
 		
 		System.out.print("Total price of sweets is: ");
-		Sweets_price=l.calculate_c(price[0])+k.calculate(price[1]);
+		Sweets_price=price[0]+price[1];
 		System.out.println(Sweets_price+" Rs\n");
 		
 		
